@@ -1,5 +1,5 @@
 # Integrate Branch Day Template
-Basic iOS app template for Integrate Branch Day.
+Basic iOS app template for Integrate Branch Day. As I continue testing and getting feedback, I may make make changes to the template code to make the process easier. 
 
 ## How to prepare for Integrate Branch Day
 1. Install Xcode via Self Service
