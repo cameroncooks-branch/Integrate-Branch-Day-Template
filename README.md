@@ -1,4 +1,4 @@
-# Integrate-Branch-Day-Template
+# Integrate Branch Day Template
 Basic iOS app template for Integrate Branch Day.
 
 How to prepare for Integrate Branch Day:
