@@ -8,6 +8,9 @@ How to prepare for Integrate Branch Day:
 4. Run the app on the simulator or your own device
 5. If the app template app runs fine, then you're all set!
 
+Contact me if you have any issues getting setup! 
+Email me at nipun.singh@branch.io or via Slack @Nipun Singh.
+
 How to build you app:
 1. (Optional) Change the name of your project by following [this guide.](https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-my-xcode-project-i-e-inclusive-of-folders).
 2. Use the [Branch Docs](https://help.branch.io/developers-hub/docs/ios-basic-integration) to integrate the SDK. I reccomend using Swift Package Manager, but feel free to use any of the installation methods. 
