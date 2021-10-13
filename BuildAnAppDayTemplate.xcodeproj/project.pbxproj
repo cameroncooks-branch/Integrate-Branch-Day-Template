@@ -13,6 +13,7 @@
 		C1128E582714BECC00CF449B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1128E562714BECC00CF449B /* LaunchScreen.storyboard */; };
 		C1128E602714BF8000CF449B /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1128E5F2714BF8000CF449B /* HomeTableViewController.swift */; };
 		C1128E622714C83600CF449B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1128E612714C83600CF449B /* DataModel.swift */; };
+		C1128E7427174DDC00CF449B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1128E7327174DDC00CF449B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C1128E592714BECC00CF449B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1128E5F2714BF8000CF449B /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		C1128E612714C83600CF449B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C1128E7327174DDC00CF449B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C1128E4B2714BECB00CF449B /* AppDelegate.swift */,
 				C1128E5F2714BF8000CF449B /* HomeTableViewController.swift */,
 				C1128E612714C83600CF449B /* DataModel.swift */,
+				C1128E7327174DDC00CF449B /* Extensions.swift */,
 				C1128E512714BECB00CF449B /* Main.storyboard */,
 				C1128E542714BECC00CF449B /* Assets.xcassets */,
 				C1128E562714BECC00CF449B /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				C1128E602714BF8000CF449B /* HomeTableViewController.swift in Sources */,
 				C1128E4C2714BECB00CF449B /* AppDelegate.swift in Sources */,
 				C1128E622714C83600CF449B /* DataModel.swift in Sources */,
+				C1128E7427174DDC00CF449B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
