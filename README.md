@@ -7,7 +7,7 @@ Basic iOS app template for Integrate Branch Day.
 3. Open `BuildAnAppDayTemplate.xcodeproj`.
 4. Sign into your Apple ID in Xcode and edit the project's signing.
 5. Run the app on the simulator or your own device.
-6. If the app template app runs fine, then you're all set!
+6. If the template app runs fine, then you're all set!
 
 Contact me if you have any issues getting setup! 
 nipun.singh@branch.io or via Slack @Nipun Singh.
@@ -29,5 +29,6 @@ nipun.singh@branch.io or via Slack @Nipun Singh.
 - When decoding the JSON to your custom data model, think about whether it's is a single object or array of objects.
 - An easy way to test opening deep links is by sharing a link to the Reminders app or copy and pasting a link into Messages.
 - You can customize your app's UI in `Main.storyboard`.
+
 
 The project's code contains comments to help you along with building as well. Feel free to ask me any questions during the process too. Best of luck!
