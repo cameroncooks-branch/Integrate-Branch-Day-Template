@@ -11,6 +11,7 @@ import UIKit
 class Extensions: UIViewController {
     
     func getData(url: String, completion: @escaping (Data) -> Void) {
+        print("Loading: \(url)")
         let task = URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: { (data, response, error) in
             if let error = error {
                 print("Error with fetching data: \(error)")
@@ -24,6 +25,7 @@ class Extensions: UIViewController {
             }
 
             if let data = data {
+                print("Succesfully received data from API.")
                 completion(data)
             }
         })
