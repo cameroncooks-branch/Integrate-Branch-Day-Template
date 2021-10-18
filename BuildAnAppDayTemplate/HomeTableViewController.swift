@@ -78,9 +78,9 @@ class HomeTableViewController: UITableViewController, UISearchBarDelegate {
         cell.detailTextLabel?.text = "#\(indexPath.row + 1)"
         
         //Example table view cell data.
-        //let cellDataModel = dataModel[indexPath.row]
-        //cell.textLabel?.text = cellDataModel.name
-        //cell.detailTextLabel?.text = cellDataModel.number
+        //let cellData = dataModel[indexPath.row]
+        //cell.textLabel?.text = cellData.name
+        //cell.detailTextLabel?.text = cellData.subtitle
         
         return cell
     }
