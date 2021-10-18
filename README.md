@@ -19,6 +19,6 @@ nipun.singh@branch.io or via Slack @Nipun Singh.
 5. Integrate the API into your app by setting the apiURL variable to the API's base url.
 6. Change the DataModel.swift file to fit your API's JSON. [QuickType makes this process easier.](https://app.quicktype.io/) Also, [here's a resource for doing it manually.](https://www.hackingwithswift.com/example-code/language/how-to-convert-json-into-swift-objects-using-codable) 
 7. Modify the last tableView function to display you API's data however you'd like.
-8. Use the Branch Docs to create, share, and read a deeplink to your app. 
+8. Use the Branch Docs to create, share, and read a deeplink in your app. 
 
 The project's code contains comments to help you along with building as well. Best of luck!
