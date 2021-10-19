@@ -29,6 +29,6 @@ nipun.singh@branch.io or via Slack @Nipun Singh.
 - When decoding the JSON to your custom data model, think about whether it's is a single object or array of objects.
 - An easy way to test opening deep links is by sharing a link to the Reminders app or copy and pasting a link into Messages.
 - You can customize your app's UI in `Main.storyboard`.
-
+- The Apple App Prefix can be found under "Membership" in your [Apple Developer Account.](https://developer.apple.com/account)
 
 The project's code contains comments to help you along with building as well. Feel free to ask me any questions during the process too. Best of luck!
