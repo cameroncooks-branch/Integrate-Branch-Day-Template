@@ -10,7 +10,7 @@
         <!--Home Table View Controller-->
         <scene sceneID="avQ-XF-fF0">
             <objects>
-                <tableViewController id="6D6-NT-wJP" customClass="HomeTableViewController" customModule="BuildAnAppDayTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="6D6-NT-wJP" customClass="HomeTableViewController" customModule="DummyProducts" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="nxW-Od-usP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,6 +77,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QmF-6w-ldZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="813.04347826086962" y="95.758928571428569"/>
+        </scene>
+        <!--Product Table Controller-->
+        <scene sceneID="y3B-Q0-UgD">
+            <objects>
+                <viewController title="Product Table Controller" id="Kow-hf-KeO" customClass="ProductTableViewController" customModule="DummyProducts" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="XVk-bk-fh2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="productDataCell" textLabel="G0U-Bn-NtP" detailTextLabel="7lm-BD-zzA" rowHeight="67" style="IBUITableViewCellStyleValue1" id="GFj-jz-6Sq">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="67"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GFj-jz-6Sq" id="5Iv-wr-8sx">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="67"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G0U-Bn-NtP">
+                                            <rect key="frame" x="20" y="28" width="25" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7lm-BD-zzA">
+                                            <rect key="frame" x="341" y="25" width="53" height="18"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" systemColor="secondaryLabelColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Kow-hf-KeO" id="xQp-o6-CzW"/>
+                            <outlet property="delegate" destination="Kow-hf-KeO" id="sx0-61-kys"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="AY4-1f-rHW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRQ-Hi-vKt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2489.8550724637685" y="95.758928571428569"/>
         </scene>
     </scenes>
     <resources>

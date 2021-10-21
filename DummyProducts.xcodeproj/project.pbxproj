@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5904CBD7271F3CA20075D431 /* Branch in Frameworks */ = {isa = PBXBuildFile; productRef = 5904CBD6271F3CA20075D431 /* Branch */; };
+		5904CBD9271F50A20075D431 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904CBD8271F50A20075D431 /* ProductTableViewController.swift */; };
 		C1128E4C2714BECB00CF449B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1128E4B2714BECB00CF449B /* AppDelegate.swift */; };
 		C1128E532714BECB00CF449B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1128E512714BECB00CF449B /* Main.storyboard */; };
 		C1128E552714BECC00CF449B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1128E542714BECC00CF449B /* Assets.xcassets */; };
@@ -17,7 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C1128E482714BECB00CF449B /* BuildAnAppDayTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildAnAppDayTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5904CBD8271F50A20075D431 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		C1128E482714BECB00CF449B /* DummyProducts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyProducts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1128E4B2714BECB00CF449B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1128E522714BECB00CF449B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1128E542714BECC00CF449B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5904CBD7271F3CA20075D431 /* Branch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +46,7 @@
 		C1128E3F2714BECB00CF449B = {
 			isa = PBXGroup;
 			children = (
-				C1128E4A2714BECB00CF449B /* BuildAnAppDayTemplate */,
+				C1128E4A2714BECB00CF449B /* DummyProducts */,
 				C1128E492714BECB00CF449B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +54,12 @@
 		C1128E492714BECB00CF449B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1128E482714BECB00CF449B /* BuildAnAppDayTemplate.app */,
+				C1128E482714BECB00CF449B /* DummyProducts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C1128E4A2714BECB00CF449B /* BuildAnAppDayTemplate */ = {
+		C1128E4A2714BECB00CF449B /* DummyProducts */ = {
 			isa = PBXGroup;
 			children = (
 				C1128E4B2714BECB00CF449B /* AppDelegate.swift */,
@@ -66,16 +70,17 @@
 				C1128E542714BECC00CF449B /* Assets.xcassets */,
 				C1128E562714BECC00CF449B /* LaunchScreen.storyboard */,
 				C1128E592714BECC00CF449B /* Info.plist */,
+				5904CBD8271F50A20075D431 /* ProductTableViewController.swift */,
 			);
-			path = BuildAnAppDayTemplate;
+			path = DummyProducts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1128E472714BECB00CF449B /* BuildAnAppDayTemplate */ = {
+		C1128E472714BECB00CF449B /* DummyProducts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1128E5C2714BECC00CF449B /* Build configuration list for PBXNativeTarget "BuildAnAppDayTemplate" */;
+			buildConfigurationList = C1128E5C2714BECC00CF449B /* Build configuration list for PBXNativeTarget "DummyProducts" */;
 			buildPhases = (
 				C1128E442714BECB00CF449B /* Sources */,
 				C1128E452714BECB00CF449B /* Frameworks */,
@@ -85,9 +90,12 @@
 			);
 			dependencies = (
 			);
-			name = BuildAnAppDayTemplate;
-			productName = BuildAnAppDayTemplate;
-			productReference = C1128E482714BECB00CF449B /* BuildAnAppDayTemplate.app */;
+			name = DummyProducts;
+			packageProductDependencies = (
+				5904CBD6271F3CA20075D431 /* Branch */,
+			);
+			productName = DummyProducts;
+			productReference = C1128E482714BECB00CF449B /* DummyProducts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C1128E432714BECB00CF449B /* Build configuration list for PBXProject "BuildAnAppDayTemplate" */;
+			buildConfigurationList = C1128E432714BECB00CF449B /* Build configuration list for PBXProject "DummyProducts" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,11 +122,14 @@
 				Base,
 			);
 			mainGroup = C1128E3F2714BECB00CF449B;
+			packageReferences = (
+				5904CBD5271F3CA20075D431 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */,
+			);
 			productRefGroup = C1128E492714BECB00CF449B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1128E472714BECB00CF449B /* BuildAnAppDayTemplate */,
+				C1128E472714BECB00CF449B /* DummyProducts */,
 			);
 		};
 /* End PBXProject section */
@@ -145,6 +156,7 @@
 				C1128E4C2714BECB00CF449B /* AppDelegate.swift in Sources */,
 				C1128E622714C83600CF449B /* DataModel.swift in Sources */,
 				C1128E7427174DDC00CF449B /* Extensions.swift in Sources */,
+				5904CBD9271F50A20075D431 /* ProductTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +305,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5YP4T32B58;
+				DEVELOPMENT_TEAM = 6U5TBW937A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BuildAnAppDayTemplate/Info.plist;
+				INFOPLIST_FILE = DummyProducts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nipunsingh.BuildAnAppDayTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camsy.DummyProducts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,9 +333,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5YP4T32B58;
+				DEVELOPMENT_TEAM = 6U5TBW937A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BuildAnAppDayTemplate/Info.plist;
+				INFOPLIST_FILE = DummyProducts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nipunsingh.BuildAnAppDayTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camsy.DummyProducts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1128E432714BECB00CF449B /* Build configuration list for PBXProject "BuildAnAppDayTemplate" */ = {
+		C1128E432714BECB00CF449B /* Build configuration list for PBXProject "DummyProducts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1128E5A2714BECC00CF449B /* Debug */,
@@ -354,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1128E5C2714BECC00CF449B /* Build configuration list for PBXNativeTarget "BuildAnAppDayTemplate" */ = {
+		C1128E5C2714BECC00CF449B /* Build configuration list for PBXNativeTarget "DummyProducts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1128E5D2714BECC00CF449B /* Debug */,
@@ -364,6 +376,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5904CBD5271F3CA20075D431 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BranchMetrics/ios-branch-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5904CBD6271F3CA20075D431 /* Branch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5904CBD5271F3CA20075D431 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */;
+			productName = Branch;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C1128E402714BECB00CF449B /* Project object */;
 }
